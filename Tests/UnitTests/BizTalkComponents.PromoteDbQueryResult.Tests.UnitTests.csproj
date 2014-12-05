@@ -64,9 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Src\PromoteDbQueryResult\ContextPropertyValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists.csproj">
+    <ProjectReference Include="..\..\Src\PromoteDbQueryResult\ContextPropertyValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.csproj">
       <Project>{bcd1a227-3fe3-46d0-ba93-01b9f74d2882}</Project>
-      <Name>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists</Name>
+      <Name>BizTalkComponents.PipelineComponents.PromoteDbQueryResult</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

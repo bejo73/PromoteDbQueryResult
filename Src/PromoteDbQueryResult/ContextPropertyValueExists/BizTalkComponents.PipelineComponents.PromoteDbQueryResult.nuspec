@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists</id>
+    <id>BizTalkComponents.PipelineComponents.PromoteDbQueryResult</id>
     <version>1.0.0.0</version>
-    <authors>J�rgen</authors>
-    <projectUrl>https://github.com/ibizsolutions/BizTalkComponents.PromoteDbQueryResult</projectUrl>
+    <authors>Jörgen Bergström</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Promotes a specified value to a specified property.</description>
     <releaseNotes>Initial release.</releaseNotes>
