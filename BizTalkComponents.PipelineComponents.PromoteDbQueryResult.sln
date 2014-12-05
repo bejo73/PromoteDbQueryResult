@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA7E5E2E-3FD9-4766-8099-881153BB8376}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests", "Tests\UnitTests\BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests.csproj", "{21DDA1C4-A24A-4233-A014-97E471D61BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists", "Src\PromoteDbQueryResult\ContextPropertyValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists.csproj", "{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
