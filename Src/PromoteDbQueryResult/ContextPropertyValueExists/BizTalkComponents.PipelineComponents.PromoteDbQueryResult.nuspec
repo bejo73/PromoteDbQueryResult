@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BizTalkComponents.PipelineComponents.PromoteDbQueryResult</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <authors>Jörgen Bergström</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Promotes a specified value to a specified property.</description>
