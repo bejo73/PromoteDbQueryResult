@@ -12,6 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PromoteDb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.PromoteDbQueryResult", "Src\PromoteDbQueryResult\ContextPropertyValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.csproj", "{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{9B11E0CA-E0A1-4732-B6E7-E49CBF667AA1}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Build.proj = Build\Build.proj
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
