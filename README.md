@@ -1,2 +1,1 @@
-PromoteDbQueryResult
-====================
+[![Build status](https://ci.appveyor.com/api/projects/status/github/BizTalkComponents/PromoteDbQueryResult?branch=master)](https://ci.appveyor.com/api/projects/status/github/BizTalkComponents/PromoteDbQueryResult/branch/master)
