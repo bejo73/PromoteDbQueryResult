@@ -1,0 +1,64 @@
+﻿<order xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/Order.xsd">
+  <ordernumbercommerce>PO20161938</ordernumbercommerce>
+  <created>2014-11-19T08:45:25.8559756Z</created>
+  <shippingtotal>0.0000</shippingtotal>
+  <handlingtotal>0.0000</handlingtotal>
+  <taxtotal>31.8000</taxtotal>
+  <subtotal>127.2000</subtotal>
+  <total>150.0000</total>
+  <shippingmethod>Postpakke</shippingmethod>
+  <shippingmethodcode>SERVICEPAKKE</shippingmethodcode>
+  <payment>
+    <paymentmethod>Betal med bankkort</paymentmethod>
+    <status>Processed</status>
+    <transactionid>3620142d718443279bb4c220f8736a6c</transactionid>
+    <amount>150.0000</amount>
+  </payment>
+  <deliveryaddress>
+    <addressname>Shipping Address</addressname>
+    <firstname>Melissa</firstname>
+    <lastname>Wang</lastname>
+    <address>Sandakerveien 22 E</address>
+    <postalcode>0473</postalcode>
+    <city>OSLO</city>
+    <phone>41764068</phone>
+    <email>melissawang@outlook.com</email>
+  </deliveryaddress>
+  <orderlines>
+    <orderline>
+      <lineitemid>44189</lineitemid>
+      <code>10000017</code>
+      <name>Felleskjøpet T-skjorte</name>
+      <quantity>1.0000</quantity>
+      <listprice>127.2000</listprice>
+      <total>150</total>
+      <taxtotal>31.8000</taxtotal>
+      <lineitemdiscountamount>0.00</lineitemdiscountamount>
+      <orderleveldiscountamount>0.0000</orderleveldiscountamount>
+    </orderline>
+  </orderlines>
+  <customer>
+    <isanonymous>false</isanonymous>
+    <customeridcommerce>73f553fd-36c9-4599-a451-1a6a35d88e9c</customeridcommerce>
+    <customeriderp>E100000014</customeriderp>
+    <firstname>Doris</firstname>
+
+    <lastname>Persson</lastname>
+
+    <email>doris1234@gmail.com</email>
+
+    <phone>90904036</phone>
+
+    <wantsnewsletter>false</wantsnewsletter>
+
+    <address>
+      <addressname>Shipping Address</addressname>
+      <address>NORDKAPPVN 123</address>
+
+      <postalcode>9750</postalcode>
+
+      <city>Honningsvaag</city>
+
+    </address>
+  </customer>
+</order>

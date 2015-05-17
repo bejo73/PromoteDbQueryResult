@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists</id>
+    <version>1.0.0.0</version>
+    <authors>Jörgen Bergström</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Promotes a specified value to a specified property.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>BizTalk</tags>
+  </metadata>
+</package>

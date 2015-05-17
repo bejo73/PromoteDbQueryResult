@@ -8,8 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EA7E5E
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests", "Tests\UnitTests\BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests.csproj", "{21DDA1C4-A24A-4233-A014-97E471D61BCB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.PromoteDbQueryResult", "Src\PromoteDbQueryResult\ContextPropertyValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.csproj", "{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{9B11E0CA-E0A1-4732-B6E7-E49CBF667AA1}"
@@ -17,20 +15,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{9B11E0CA
 		Build\Build.proj = Build\Build.proj
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists", "Src\PromoteDbQueryResult\XPathValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists.csproj", "{93E887E9-4EF8-41CF-8AF6-6F39C80BEBDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests.ContextPropertyValueExists", "Tests\UnitTests\ContextPropertyValueExists\BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests.ContextPropertyValueExists.csproj", "{21DDA1C4-A24A-4233-A014-97E471D61BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests.XPathValueExists", "Tests\UnitTests\XPathValueExists\BizTalkComponents.PromoteDbQueryResult.Tests.UnitTests.XPathValueExists.csproj", "{427E3B6F-C16C-4F43-B91B-99C66835CAD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCD1A227-3FE3-46D0-BA93-01B9F74D2882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E887E9-4EF8-41CF-8AF6-6F39C80BEBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E887E9-4EF8-41CF-8AF6-6F39C80BEBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E887E9-4EF8-41CF-8AF6-6F39C80BEBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E887E9-4EF8-41CF-8AF6-6F39C80BEBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DDA1C4-A24A-4233-A014-97E471D61BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427E3B6F-C16C-4F43-B91B-99C66835CAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427E3B6F-C16C-4F43-B91B-99C66835CAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427E3B6F-C16C-4F43-B91B-99C66835CAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427E3B6F-C16C-4F43-B91B-99C66835CAD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

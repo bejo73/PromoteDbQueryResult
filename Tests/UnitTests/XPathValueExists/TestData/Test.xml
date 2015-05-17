@@ -1,0 +1,24 @@
+﻿<order xmlns="http://tempuri.org/Order.xsd">
+  <ordernumber>20161937</ordernumber>
+  <created>2014-11-19T08:45:25.8559756Z</created>
+  <total>159.0000</total>
+  <shippingmethod>1</shippingmethod>
+  <storeid>ABC123</storeid>
+  <payment>
+    <status>Processed</status>
+    <transactionid>3620142d718443279bb4c220f8736a6c</transactionid>
+    <amount>159.0000</amount>
+  </payment>
+  <deliveryaddress />
+  <orderlines>
+    <orderline>
+      <lineitemid>44189</lineitemid>
+      <code>50220622</code>
+      <quantity>1.0000</quantity>
+      <listprice>127.2000</listprice>
+      <total>159</total>
+      <taxtotal>31.8000</taxtotal>
+    </orderline>
+  </orderlines>
+  <customer />
+</order>
