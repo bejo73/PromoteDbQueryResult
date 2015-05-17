@@ -38,9 +38,9 @@
     <AssemblyOriginatorKeyFile>BizTalkComponents.PromoteDbQuery.fk.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BizTalkComponents.DbUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\packages\BizTalkComponents.DbUtils.1.0.0.2\lib\net40\BizTalkComponents.DbUtils.dll</HintPath>
+    <Reference Include="BizTalkComponents.DbUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a9b0f01c92d9f6c4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\BizTalkComponents.DbUtils.1.0.0.3\lib\net40\BizTalkComponents.DbUtils.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Biztalk.Messaging, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.BizTalk.Pipeline, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
