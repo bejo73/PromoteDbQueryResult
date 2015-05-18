@@ -38,9 +38,6 @@
     <AssemblyOriginatorKeyFile>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BizTalkComponents.DbUtils">
-      <HintPath>..\..\..\packages\BizTalkComponents.DbUtils.1.0.0.3\lib\net40\BizTalkComponents.DbUtils.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.BizTalk.Messaging, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\Microsoft BizTalk Server 2013\Microsoft.BizTalk.Messaging.dll</HintPath>
