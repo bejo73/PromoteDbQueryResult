@@ -6,7 +6,7 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<Resource Include="..\Src\PromoteDbQueryResult\ContextPropertyValueExists\bin\Debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists.dll" />
-    <Resource Include="..\Src\PromoteDbQueryResult\ContextPropertyValueExists\bin\Debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists.dll" />
+    <Resource Include="..\Src\PromoteDbQueryResult\XPathValueExists\bin\Debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists.dll" />
   </ItemGroup>
 	<Target Name="GenerateMsi">
 		<MsiTask  
