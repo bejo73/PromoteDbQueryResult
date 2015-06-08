@@ -5,9 +5,9 @@
 		<ApplicationName>BizTalkComponents.PipelineComponents.PromoteDbQueryResult</ApplicationName>
 	</PropertyGroup>
 	<ItemGroup>
-		<Resource Include="..\Src\PromoteDbQueryResult\ContextPropertyValueExists\bin\Debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.dll" />
-	</ItemGroup>
-		
+		<Resource Include="..\Src\PromoteDbQueryResult\ContextPropertyValueExists\bin\Debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists.dll" />
+    <Resource Include="..\Src\PromoteDbQueryResult\ContextPropertyValueExists\bin\Debug\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists.dll" />
+  </ItemGroup>
 	<Target Name="GenerateMsi">
 		<MsiTask  
 			FileName="$(FileName)"
