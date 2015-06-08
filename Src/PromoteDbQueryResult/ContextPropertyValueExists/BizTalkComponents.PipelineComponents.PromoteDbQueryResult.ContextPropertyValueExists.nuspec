@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>BizTalkComponents.PipelineComponents.PromoteDbQueryResult</id>
-    <version>1.0.0.1</version>
+    <id>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists</id>
+    <version>1.1.0.0</version>
     <authors>Jörgen Bergström</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Promotes a specified value to a specified property.</description>

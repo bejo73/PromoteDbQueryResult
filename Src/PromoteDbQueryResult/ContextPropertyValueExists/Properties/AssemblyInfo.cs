@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BizTalkComponents.PipelineComponents.PromoteDbQueryResult")]
+[assembly: AssemblyTitle("BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BizTalkComponents.PipelineComponents.PromoteDbQueryResult")]
+[assembly: AssemblyProduct("BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

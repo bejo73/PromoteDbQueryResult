@@ -61,9 +61,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Src\PromoteDbQueryResult\ContextPropertyValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.csproj">
+    <ProjectReference Include="..\..\..\Src\PromoteDbQueryResult\ContextPropertyValueExists\BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists.csproj">
       <Project>{bcd1a227-3fe3-46d0-ba93-01b9f74d2882}</Project>
-      <Name>BizTalkComponents.PipelineComponents.PromoteDbQueryResult</Name>
+      <Name>BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
